@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { NextPage } from 'next'
+import NextLink from 'next/link'
 import { Box, PseudoBox, Flex, Link, Heading, Text, Grid, Image } from '@chakra-ui/core'
 
 import { Content, Page } from '~/components/layouts'
@@ -30,7 +31,7 @@ const IndexPage: NextPage = () => (
                 Kabar Gembira!
               </Heading>
               <Heading as="h3" fontSize="5xl" fontWeight={600}>
-                Merchandise Resmi ReactJS&nbsp;Indonesia
+                Merchandise Resmi ReactJS Indonesia
               </Heading>
               <Text as="p" my="18px">
                 Merchandise resmi ReactJS Indonesia kini tersedia berkat kerjasama oleh Rumah Komunitas. Klik link di bawah untuk
@@ -100,9 +101,11 @@ const IndexPage: NextPage = () => (
               ))}
           </Grid>
           <Flex justifyContent="center" mt="4em">
-            <LinkButton _hover={{ backgroundColor: 'reactBlue.900' }} mt="auto" backgroundColor="reactBlue.800" color="white">
-              Lihat Selengkapnya
-            </LinkButton>
+            <NextLink href="/learning">
+              <LinkButton _hover={{ backgroundColor: 'reactBlue.900' }} mt="auto" backgroundColor="reactBlue.800" color="white">
+                Lihat Selengkapnya
+              </LinkButton>
+            </NextLink>
           </Flex>
         </Grid>
       </Box>

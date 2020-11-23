@@ -1,10 +1,6 @@
 # @reactjs-id/website
 
-> ReactJS ID Website v2.
-
-Repositori ini berisi versi selanjutnya dari situs ReactJS Indonesia. Selama proses pengembangan, versi produksi repositori ini akan tersedia di [new.reactjs.id](https://new.reactjs.id/).
-
-Bantu kami mengembangkan situs ReactJS Indonesia yang baru! Ikuti langkah-langkah di bawah untuk memulai.
+> Source code for https://reactjs.id/
 
 ## Mengembangkan di `localhost`
 
